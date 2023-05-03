@@ -1,4 +1,3 @@
-/* Global CSS */
 :root {
   --color-dark: #121111;
   --color-light: #f8f8f8;
@@ -60,7 +59,7 @@ article > * + * {
     font-style: italic;
   }
 }
-/* Utilities */
+/* Utilizate*/
 .bg-dark {
   background: var(--color-dark);
 }
@@ -124,13 +123,11 @@ article > * + * {
 .color-slate {
   color: var(--color-slate);
 }
-
-/* Flow utility: https://piccalil.li/quick-tip/flow-css-utility/ */
 .flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
 
-/* Wrapper / container */
+/* Ambalajul */
 .wrapper {
   max-width: 61.25rem;
   margin-left: auto;
@@ -143,7 +140,7 @@ article > * + * {
   max-width: 74rem;
 }
 
-/* Blocks */
+/* Blocuri */
 .tiles {
   display: flex;
   flex-wrap: wrap;
@@ -185,8 +182,6 @@ article > * + * {
 .tiles > *:nth-child(even) h2 {
   color: var(--color-dark);
 }
-
-/* Used for the important bit section */
 .padded-box {
   padding: 4rem 0;
 }
